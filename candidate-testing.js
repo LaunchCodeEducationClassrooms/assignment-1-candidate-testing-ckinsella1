@@ -13,7 +13,7 @@ function askForName() {
 
 function askQuestion() {
   for (let i = 0; i < questions.length; i++) {
-  candidateAnswers[i] = [input.question(questions[i])];
+  candidateAnswers[i] = [input.question(console.log((((i+1) + ") " + questions[i]))))];
 console.log(`Your Answer: ${candidateAnswers[i]}`);
 console.log(`Correct Answer: ${correctAnswers[i]}`);
   }
